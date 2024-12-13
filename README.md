@@ -14,7 +14,7 @@ Our approach has been tested on two datasets, namely Beasley’s OR-Library and 
 minimum distance. We have reported the least and average values for each R in the table. The values of HH-RAND and HH-GREEDY are similar for most instances except for a few. We can also deduce a comparison between these approaches for
 further improvements in the future.
 
-We have 10 multi-starts where an initial solution is generated 10 times, and on each of these initial solutions, we apply low-level heuristics 100 times. HH-RAND at any instance applies one of the low-level heuristics, and HHGREEDY applies all the low-level heuristics available. HH-RAND is much faster
+We have 10 multi-starts where an initial solution is generated 10 times, and on each of these initial solutions, we apply low-level heuristics 100 times. HH-RAND at any instance applies one of the low-level heuristics, and HH-GREEDY applies all the low-level heuristics available. HH-RAND is much faster
 in comparison to HH-GREEDY, for obvious reasons.
 
 
